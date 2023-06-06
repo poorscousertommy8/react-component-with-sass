@@ -3,13 +3,17 @@
 	"displayName": "React Component with Sass",
 	"publisher": "DavidSteger",
 	"description": "",
-	"version": "0.0.1",
+	"version": "1.0.0",
 	"engines": {
 		"vscode": "^1.78.0"
 	},
 	"categories": [
 		"Other"
 	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/poorscousertommy8/react-component-with-sass"
+	},
 	"activationEvents": [],
 	"main": "./extension.js",
 	"contributes": {
@@ -36,12 +40,12 @@
 		"publish": "pnpm vsce publish --no-dependencies"
 	},
 	"devDependencies": {
-		"@types/vscode": "^1.78.0",
+		"@types/vscode": "^1.78.1",
 		"@types/glob": "^8.1.0",
 		"@types/mocha": "^10.0.1",
 		"@types/node": "20.2.5",
-		"eslint": "^8.41.0",
-		"glob": "^8.1.0",
+		"eslint": "^8.42.0",
+		"glob": "^10.2.6",
 		"mocha": "^10.2.0",
 		"typescript": "^5.1.3",
 		"@vscode/test-electron": "^2.3.2"

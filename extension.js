@@ -37,8 +37,7 @@ function activate(context) {
 			const folderUriToCreate = vscode.Uri.file(path.join(folderPath, folderName));
 			fs.mkdirSync(folderUriToCreate.fsPath);
 
-			const jsxContent = `import React from "react";
-import styles from "./${folderName}.module.scss";
+			const jsxContent = `import styles from "./${folderName}.module.scss";
 
 const ${folderName} = () => {
   return <div className={styles.root}></div>;
